@@ -1,6 +1,7 @@
 # g-t-k-e-o-e-cc
 # Author
-  <p1>Collin Cimaroli</p1>
+  <p>Collin Cimaroli</p>
 # Credits
-  <p1>freecodecamp.org for the penguin code</p1>
+  <p>freecodecamp.org for the penguin code</p>
   <p>W3S for the code tutorials</p>
+  <p>ChatGPT for javascript example code</p>
