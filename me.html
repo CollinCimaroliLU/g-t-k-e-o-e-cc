@@ -7,7 +7,15 @@
 </head>
 <body>
 	<img src="me.png" alt="Collin">
-	<h1>Collin Cimaroli</h1>
+	<h1 id="myHeading">Collin Cimaroli</h1>
+
+	<script>
+        const heading = document.getElementById('myHeading');
+
+        heading.addEventListener('click', function() {
+            heading.style.color = 'purple';
+        });
+    </script>
 	<h2>Email: <a href=mailto: collinpcimaroli@lewisu.edu>collinpcimaroli@lewisu.edu</a></h2>
 	<h2>Discord Username: collin_cimaroli</h2>
 	<h2>Introduction</h2>
@@ -29,7 +37,7 @@
 	<h2>Fun Fact</h2>
 		<p>Spotted Cow is my favorite beer.</p>
 </body>
-<aside>
+<footer>
 	<div class="penguin">
 		<div class="penguin-head">
 		  <div class="face left"></div>
@@ -56,5 +64,5 @@
 		  <div class="foot right"></div>
 		</div>
 	</div>
-</aside>
+</footer>
 </html>
